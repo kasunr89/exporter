@@ -1,0 +1,20 @@
+{
+  "name": "exporter",
+  "version": "1.0.0",
+  "description": "xlsx and csv exporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "npx tsc && node dist/index.js"
+  },
+  "author": "kasunr89",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1304.0",
+    "fast-csv": "^4.3.6"
+  },
+  "devDependencies": {
+    "tsc-node": "^0.0.3",
+    "typescript": "^4.9.4"
+  }
+}
